@@ -8,7 +8,7 @@ export const projects = [
         image: "/project-img/01-project-movie.jpg",
         alt: "Movie and TV streaming website showing a dark-themed collection of films and series",
         href: "",
-        source: "YOUR_GITHUB_REPOSITORY_URL",
+        source: "https://github.com/SahilYatam/movies-and-series-streaming-platform",
         stack: [
             "TypeScript",
             "Next.js",
@@ -26,28 +26,6 @@ export const projects = [
 
     {
         number: "02",
-        category: "E-commerce",
-        name: "Grocery Shop",
-        description:
-            "An e-commerce website for grocery shopping, allowing customers to browse products, manage their cart, and place orders through a simple online shopping experience.",
-        image: "/project-img/02-project-grocery-shop.jpg",
-        alt: "Grocery e-commerce website displaying grocery products and shopping categories",
-        href: "https://grocery-store-rho-nine.vercel.app/",
-        source: "YOUR_GITHUB_REPOSITORY_URL",
-        stack: [
-            "TypeScript",
-            "React",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "Node.js",
-            "Express",
-            "JWT",
-            "MongoDB",
-        ],
-    },
-
-    {
-        number: "03",
         category: "Realtime",
         name: "Chat Application",
         description:
@@ -55,7 +33,7 @@ export const projects = [
         image: "/project-img/03-project-chat.jpg",
         alt: "Real-time chat application interface showing conversations and friend connections",
         href: "https://chat-application-ruby-iota.vercel.app/",
-        source: "YOUR_GITHUB_REPOSITORY_URL",
+        source: "https://github.com/SahilYatam/Chat-Application",
         stack: [
             "TypeScript",
             "React",
@@ -68,6 +46,49 @@ export const projects = [
             "MongoDB",
         ],
     },
+
+    {
+        number: "03",
+        category: "Productivity",
+        name: "Job Application Tracker",
+        description:
+            "Job Tracker — A Kanban-style job application tracker built with Next.js, MongoDB, and Better Auth. Users can sign up, log job applications with full details, and drag-and-drop them through custom stages — from Wish List to Offer.",
+        image: "/project-img/04-project-job-track.jpg",
+        alt: "Job Tracker Kanban dashboard interface showing job applications organized by stage",
+        href: "https://job-tracking-application-swart.vercel.app/",
+        source: "https://github.com/SahilYatam/Job-Tracking-Application",
+        stack: [
+            "TypeScript",
+            "Next.js",
+            "Tailwind CSS",
+            "Shadcn",
+            "MongoDB",
+            "Better Auth",
+        ],
+    },
+
+    {
+        number: "04",
+        category: "E-commerce",
+        name: "Grocery Shop",
+        description:
+            "An e-commerce website for grocery shopping, allowing customers to browse products, manage their cart, and place orders through a simple online shopping experience.",
+        image: "/project-img/02-project-grocery-shop.jpg",
+        alt: "Grocery e-commerce website displaying grocery products and shopping categories",
+        href: "https://grocery-store-rho-nine.vercel.app/",
+        source: "https://github.com/SahilYatam/fullstack-grocery-store",
+        stack: [
+            "TypeScript",
+            "React",
+            "Redux Toolkit",
+            "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "JWT",
+            "MongoDB",
+        ],
+    },
+
 ] as const;
 
 export type Project = (typeof projects)[number];
