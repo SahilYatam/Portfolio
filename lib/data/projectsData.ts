@@ -7,7 +7,7 @@ export const projects = [
             "A movie and TV streaming platform where users can explore titles, browse series, and manage their personal watchlist through a modern viewing experience.",
         image: "/project-img/01-project-movie.jpg",
         alt: "Movie and TV streaming website showing a dark-themed collection of films and series",
-        href: "",
+        href: "https://movies-and-series-streaming-platfor-six.vercel.app",
         source: "https://github.com/SahilYatam/movies-and-series-streaming-platform",
         stack: [
             "TypeScript",

@@ -265,3 +265,8 @@
     }
 }
 
+/* Dim paragraph text without touching component classes.
+   Un-layered rule beats @layer utilities (text-foreground), scoped to <p>. */
+p {
+    --foreground: oklch(0.50 0.006 285);
+}
